@@ -2,7 +2,7 @@ import random
 #randomizer in python
 
 choice = int(input("1. Rock\n2. Paper\n3. Scissors\n\nPlease enter your choice correspondingly: "))
-computer = random.randint(1,3)
+computer = random.randint(0,3)
 hand = ["ROCK", "PAPER", "SCISSORS"]
 
 if choice == computer:   
